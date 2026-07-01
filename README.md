@@ -8,7 +8,7 @@ The project demonstrates CNN architecture design, data augmentation, Global Aver
 
 After pushing this repository to GitHub, replace `<your-github-username>` in the link below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-github-username>/cats-vs-dogs-cnn-transfer-learning/blob/main/notebooks/cats_vs_dogs_cnn_clean.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-github-username>/cats-vs-dogs-cnn-transfer-learning/blob/main/Notebooks/cats_vs_dogs_cnn_clean.ipynb)
 
 ## Project Objective
 
@@ -38,12 +38,12 @@ cats-vs-dogs-cnn-transfer-learning/
 |-- requirements.txt
 |-- .gitignore
 |
-|-- notebooks/
+|-- Notebooks/
 |   |-- cats_vs_dogs_cnn_clean.ipynb
 |   |-- cats_vs_dogs_cnn_executed.ipynb
 |
-|-- reports/
-|   |-- figures/
+|-- Reports/
+|   |-- Figures/
 |   |   |-- sample_images.png
 |   |   |-- class_distribution.png
 |   |   |-- custom_cnn_results.png
@@ -56,7 +56,7 @@ cats-vs-dogs-cnn-transfer-learning/
 |   |-- Analysis/
 |       |-- model_analysis.md
 |
-|-- data/
+|-- Data/
     |-- README.md
 ```
 
