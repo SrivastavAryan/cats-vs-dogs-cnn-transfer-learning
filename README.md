@@ -8,7 +8,7 @@ The project demonstrates CNN architecture design, data augmentation, Global Aver
 
 After pushing this repository to GitHub, replace `<your-github-username>` in the link below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-github-username>/cats-vs-dogs-cnn-transfer-learning/blob/main/Notebooks/cats_vs_dogs_cnn_clean.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SrivastavAryan/cats-vs-dogs-cnn-transfer-learning/blob/main/Notebooks/cats_vs_dogs_cnn_clean.ipynb)
 
 ## Project Objective
 
@@ -224,7 +224,7 @@ The dataset will be downloaded automatically through TensorFlow Datasets.
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-github-username>/cats-vs-dogs-cnn-transfer-learning.git
+git clone https://github.com/SrivastavAryan/cats-vs-dogs-cnn-transfer-learning.git
 cd cats-vs-dogs-cnn-transfer-learning
 ```
 
@@ -269,18 +269,6 @@ jupyter notebook notebooks/cats_vs_dogs_cnn_clean.ipynb
 - Parameter-count analysis
 - Deep learning experimentation under hardware constraints
 
-## Important Notes Before Public GitHub Upload
-
-Before uploading the notebook publicly, update the following:
-
-1. Save plots to `reports/figures/` instead of the notebook root directory.
-2. Fix comments that mention `224 x 224` if the actual image size is `160 x 160`.
-3. Correct comments where `CNN_EPOCHS = 12` is described as 15 epochs.
-4. Correct comments where `CNN_LR = 0.0005` is described as `0.0001`.
-5. Fix the EarlyStopping print statement because the code uses `patience=20` but prints `patience=5`.
-6. For ResNet50, consider using `tf.keras.applications.resnet50.preprocess_input`.
-7. Update the final analysis text so training times and loss reduction match the actual comparison table.
-8. Remove or externalize large embedded base64 screenshots from the portfolio version if the notebook becomes too large.
 
 ## Future Improvements
 
