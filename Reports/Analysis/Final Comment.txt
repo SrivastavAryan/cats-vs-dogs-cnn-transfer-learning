@@ -1,0 +1,20 @@
+The custom 4-block CNN outperformed the frozen ResNet50 transfer-learning model
+across accuracy, precision, recall, and F1-score. The custom CNN achieved 83.83%
+accuracy and 0.8360 F1-score, while ResNet50 achieved 61.92% accuracy and 0.6124
+F1-score, giving the custom CNN an accuracy advantage of about 21.9 percentage points.
+
+The custom CNN learned task-specific cat/dog visual features directly from the
+training data and converged better, reducing loss by 59.4%. The ResNet50 baseline
+reduced loss by only 11.3%, likely because the frozen ImageNet feature extractor
+had limited adaptation capacity and the preprocessing/input-resolution setup was
+not fully optimized for ResNet50.
+
+Global Average Pooling was used in both models and helped reduce parameter count
+and overfitting risk compared with Flatten-based classifier heads. The custom CNN
+used only 390,850 parameters, while ResNet50 had 23.59M total parameters but only
+4,098 trainable parameters because the base model was frozen.
+
+Training times were comparable at 275.4s for the custom CNN and 282.9s for
+ResNet50. Overall, the custom CNN performed better in this constrained setup,
+while the transfer-learning baseline highlighted the importance of preprocessing,
+input resolution, and fine-tuning strategy.
