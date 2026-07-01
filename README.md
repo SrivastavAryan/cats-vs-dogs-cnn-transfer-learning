@@ -6,7 +6,7 @@ The project demonstrates CNN architecture design, data augmentation, Global Aver
 
 ## Open in Google Colab
 
-After pushing this repository to GitHub, replace `<your-github-username>` in the link below:
+
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SrivastavAryan/cats-vs-dogs-cnn-transfer-learning/blob/main/Notebooks/cats_vs_dogs_cnn_clean.ipynb)
 
@@ -56,7 +56,7 @@ cats-vs-dogs-cnn-transfer-learning/
 |   |-- Analysis/
 |       |-- model_analysis.md
 |
-|-- Data/
+|-- Dataset/
     |-- README.md
 ```
 
@@ -237,7 +237,7 @@ pip install -r requirements.txt
 Open the clean notebook:
 
 ```bash
-jupyter notebook notebooks/cats_vs_dogs_cnn_clean.ipynb
+jupyter notebook Notebooks/cats_vs_dogs_cnn_clean.ipynb
 ```
 
 ## Tech Stack
